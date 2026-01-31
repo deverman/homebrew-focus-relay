@@ -27,7 +27,7 @@ class FocusRelayMcp < Formula
 
       1. INSTALL the OmniFocus plugin:
          cp -r #{pkgshare}/Plugin/FocusRelayBridge.omnijs \
-           ~/Library/Containers/com.omnigroup.OmniFocus4/Data/Library/Application\\ Support/OmniFocus/Plug-Ins/
+           ~/Library/Containers/com.omnigroup.OmniFocus4/Data/Library/Application\\ Support/Plug-Ins/
 
       2. RESTART OmniFocus completely (Cmd+Q, then reopen)
 
