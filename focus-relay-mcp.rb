@@ -4,8 +4,8 @@
 class FocusRelayMcp < Formula
   desc "MCP server for OmniFocus - query tasks via AI assistants"
   homepage "https://github.com/deverman/FocusRelayMCP"
-  url "https://github.com/deverman/FocusRelayMCP/releases/download/v0.9.0-beta/focus-relay-mcp-0.9.0-beta.tar.gz"
-  sha256 "ea399a7e282f9d799038f55ee9870de62aacf7ea409b81a22b817cb2b887803e"
+  url "https://github.com/deverman/FocusRelayMCP/releases/download/v0.9.1-beta/focus-relay-mcp-0.9.1-beta.tar.gz"
+  sha256 "87e10a1fee2878dba0aaf4376576d9b2f165526660561171e931541b55a3b43f"
   license "MIT"
 
   depends_on arch: :arm64
