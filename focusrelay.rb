@@ -27,7 +27,7 @@ class Focusrelay < Formula
 
       1. INSTALL the OmniFocus plugin:
          cp -r #{pkgshare}/Plugin/FocusRelayBridge.omnijs \
-           ~/Library/Containers/com.omnigroup.OmniFocus4/Data/Library/Application\\ Support/Plug-Ins/
+           ~/Library/Containers/com.omnigroup.OmniFocus4/Data/Library/Application\ Support/Plug-Ins/
 
       2. RESTART OmniFocus completely (Cmd+Q, then reopen)
 
@@ -36,6 +36,10 @@ class Focusrelay < Formula
 
       ⚠️  FIRST TIME SETUP:
       When you run your first query, click "Run Script" in the security dialog.
+
+      🔄 UPGRADE NOTES:
+      When upgrading, you MUST reinstall the plugin (Step 1 above) to get the latest
+      JavaScript changes. The plugin and binary must stay in sync.
 
       📖 Full documentation: https://github.com/deverman/FocusRelayMCP
     EOS
