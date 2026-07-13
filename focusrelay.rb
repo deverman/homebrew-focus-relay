@@ -2,7 +2,7 @@
 # This formula installs both the MCP server binary and the OmniFocus plugin
 
 class Focusrelay < Formula
-  desc "MCP server for OmniFocus - query tasks via AI assistants"
+  desc "Read and write OmniFocus tasks and projects via AI assistants"
   homepage "https://github.com/deverman/FocusRelayMCP"
   url "https://github.com/deverman/FocusRelayMCP/releases/download/v0.9.4beta/focusrelay-0.9.4beta.tar.gz"
   version "0.9.4beta"
@@ -28,7 +28,7 @@ class Focusrelay < Formula
 
       1. INSTALL the OmniFocus plugin:
          cp -r #{pkgshare}/Plugin/FocusRelayBridge.omnijs \
-           "~/Library/Containers/com.omnigroup.OmniFocus4/Data/Library/Application Support/Plug-Ins/"
+           "$HOME/Library/Containers/com.omnigroup.OmniFocus4/Data/Library/Application Support/Plug-Ins/"
 
       2. RESTART OmniFocus completely (Cmd+Q, then reopen)
 
