@@ -5,7 +5,6 @@ class Focusrelay < Formula
   desc "Read and write OmniFocus tasks and projects via AI assistants"
   homepage "https://github.com/deverman/FocusRelayMCP"
   url "https://github.com/deverman/FocusRelayMCP/releases/download/v0.9.4beta/focusrelay-0.9.4beta.tar.gz"
-  version "0.9.4beta"
   sha256 "bb2bff37f3498df6450b6f39fc4706072f2825543c0a327c1065049bc21fbdef"
   license "MIT"
 
